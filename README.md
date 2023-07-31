@@ -1,10 +1,10 @@
-👋 
+Hey there! 👋 Welcome to my Github page! 
 
-Hi there! My name is Kaya and I'm a data analytics consultant. 
-
-I have a strong interest in Data Science and Data Engineering, and I'm an avid user of the R programming language and SQL. In my current role, I use these tools to help clients extract insights from their data and make data-driven decisions. I'm excited to be a part of the GitHub community and to share and learn from others in the field.
-
-
+I'm a data scientist who loves playing around with numbers and figuring out trends. 📈
+I mostly use R as my go-to programming language and specialize in statistics, machine learning, and econometrics 👷
+Feel free to explore my Github repositories if you want to know more about my work. 🌟 
+And if you have any questions or ideas, don't hesitate to reach out. 📫
+I'm always open to collaboration and excited to build something amazing with you! 🚀
 
 
 <!---
