@@ -28,7 +28,7 @@
 }
 
 .svg-elem-1 {
-  animation: animate-svg-fill-1 3s ease-in 0.3s both;
+  animation: animate-svg-fill-1 2s linear 2s both;
 }
 
 @keyframes animate-svg-fill-2 {
@@ -53,7 +53,7 @@
 }
 
 .svg-elem-2 {
-  animation: animate-svg-fill-2 3s ease-in 0.3s both;
+  animation: animate-svg-fill-2 2s linear 2s both;
 }
 
 @keyframes animate-svg-fill-3 {
@@ -78,7 +78,7 @@
 }
 
 .svg-elem-3 {
-  animation: animate-svg-fill-3 3s ease-in 0.3s both;
+  animation: animate-svg-fill-3 2s linear 2s both;;
 }
 
 @keyframes animate-svg-fill-4 {
@@ -103,7 +103,7 @@
 }
 
 .svg-elem-4 {
-  animation: animate-svg-fill-4 3s ease-in 0.3s both;
+  animation: animate-svg-fill-4 2s linear 2s both;
 }
 
 @keyframes animate-svg-fill-5 {
@@ -128,7 +128,7 @@
 }
 
 .svg-elem-5 {
-  animation: animate-svg-fill-5 3s ease-in 0.3s both;
+  animation: animate-svg-fill-5 2s linear 2s both;
 }
 
 @keyframes animate-svg-fill-6 {
@@ -153,7 +153,7 @@
 }
 
 .svg-elem-6 {
-  animation: animate-svg-fill-6 3s ease-in 0.3s both;
+  animation: animate-svg-fill-6 2s linear 2s both;
 }
 
 @keyframes animate-svg-fill-7 {
@@ -178,7 +178,7 @@
 }
 
 .svg-elem-7 {
-  animation: animate-svg-fill-7 3s ease-in 0.3s both;
+  animation: animate-svg-fill-7 2s linear 2s both;
 }
 
 @keyframes animate-svg-fill-8 {
@@ -202,7 +202,7 @@
 }
 
 .svg-elem-8 {
-  animation: animate-svg-fill-8 3s ease-in 0.3s both;
+  animation: animate-svg-fill-8 2s linear 2s both;
 }
 
 body {
