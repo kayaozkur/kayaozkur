@@ -28,7 +28,7 @@ Hey there! 👋 Welcome to my Github page!
 
 
 
-![Visitor Count](https://profile-counter.glitch.me/{kayaozkur}/count.svg) 
+[![trophy](https://github-profile-trophy.vercel.app/?username=kayaozkur&theme=darkhub)](https://github.com/kayaozkur/github-profile-trophy)
 
 
             
