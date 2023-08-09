@@ -206,7 +206,15 @@
   animation: animate-svg-fill-8 3s ease-in 0.3s both;
 }
 
+body {
+  margin: 0;
+  background-color: white;
+}
 
+svg {
+  width: 100%;
+  display: block;
+}
 </style>
 <g transform="translate(0.000000,237.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
 <path d="M4060 1794 c-85 -24 -403 -176 -450 -215 -14 -11 -1 -7 30 11 204
