@@ -1,7 +1,5 @@
 ![Visitor Count](https://profile-counter.glitch.me/{kayaozkur}/count.svg)
 
-![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=300&section=header&text=capsule%20render&desc=Hello%20capsule%20render&fontSize=60&animation=scaleIn)
-
 
 
 
@@ -17,16 +15,13 @@
 [![Created Badge](https://badges.pufler.dev/created/kayaozkur/navigatoR)](https://badges.pufler.dev/created/{kayaozkur}/{navigatoR})
 
 
-[![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false)](https://github.com/kayaozkur/github-readme-stats)
-[![GitHub Streak](https://streak-stats.demolab.com?user=kayaozkur&theme=ayu-light&hide_border=true)](https://git.io/streak-stats)
+[![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false)](https://github.com/kayaozkur/github-readme-stats)[![GitHub Streak](https://streak-stats.demolab.com?user=kayaozkur&theme=ayu-light&hide_border=true)](https://git.io/streak-stats)
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur)](https://github.com/kayaozkur/kayaozkur)[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=navigatoR)](https://github.com/kayaozkur/navigatoR)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur)](https://github.com/kayaozkur/kayaozkur)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=navigatoR)](https://github.com/kayaozkur/navigatoR)
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&layout=compact)](https://github.com/kayaozkur)
-
 
 
 
