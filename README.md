@@ -21,7 +21,8 @@ Hey there! 👋 Welcome to my Github page!
 
 
 
-[![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false)](https://github.com/kayaozkur/github-readme-stats) [![GitHub Streak](https://streak-stats.demolab.com?user=kayaozkur&theme=ayu-light&hide_border=true)](https://git.io/streak-stats&card_width=400)
+[![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false)](https://github.com/kayaozkur/github-readme-stats) 
+[![GitHub Streak](https://streak-stats.demolab.com?user=kayaozkur&theme=ayu-light&hide_border=true&card_width=400)](https://git.io/streak-stats)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur)](https://github.com/kayaozkur/kayaozkur)[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=navigatoR)](https://github.com/kayaozkur/navigatoR)
 
