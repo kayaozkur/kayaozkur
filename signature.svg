@@ -8,19 +8,19 @@
 
 @keyframes animate-svg-fill-1 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -33,19 +33,19 @@
 
 @keyframes animate-svg-fill-2 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -58,19 +58,19 @@
 
 @keyframes animate-svg-fill-3 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -83,19 +83,19 @@
 
 @keyframes animate-svg-fill-4 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -108,19 +108,19 @@
 
 @keyframes animate-svg-fill-5 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -133,19 +133,19 @@
 
 @keyframes animate-svg-fill-6 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -158,19 +158,19 @@
 
 @keyframes animate-svg-fill-7 {
   0% {
-    fill: transparent;
+    fill: rgb(250, 250, 250);
   }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);
   }
   100% {	
     fill: rgb(25, 140, 231);
@@ -183,19 +183,18 @@
 
 @keyframes animate-svg-fill-8 {
   0% {
-    fill: transparent;
-  }
+    fill: rgb(250, 250, 250);  }
   20% {
-	fill: rgb(219, 22, 71)
+	fill: rgb(219, 22, 71);;
   }
   40% {
-	fill: rgb(171, 52, 111)
+	fill: rgb(171, 52, 111);;
   }
   60% {
-	fill: rgb(123, 82, 151)
+	fill: rgb(123, 82, 151);;
   }
   80% {
-	fill: rgb(74, 111, 191)
+	fill: rgb(74, 111, 191);;
   }
   100% {	
     fill: rgb(25, 140, 231);
