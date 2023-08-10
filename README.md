@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/kayaozkur">
-    <img src="signature.svg" alt="Kaya Ozkur" /></a>
+    <img src="signature.svg" alt="Kaya Ozkur"/></a>
 </p>
 
 
