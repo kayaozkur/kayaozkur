@@ -1,3 +1,7 @@
+<h1>
+  This page is under construction. It's currently a mess since I'm just learning additional functionalities.    
+</h1>
+
 <p align="center">
   <a href="https://github.com/kayaozkur">
     <img src="signature.svg" alt="Kaya Ozkur"/></a>
