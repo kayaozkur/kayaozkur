@@ -15,7 +15,7 @@ svg {
   display: block;
 }
 	</style>
-	<g transform="translate(-400.000000,340.000000) scale(0.1860000,-0.1860000)" fill="#CC5C71" stroke="#CE6771" stroke-width="10px">
+	<g transform="translate(-340.000000,340.000000) scale(0.1860000,-0.1860000)" fill="#CC5C71" stroke="#CE6771" stroke-width="15px">
 		<g  fill="#CC5C71" stroke="#F0DA91" stroke-width="8px">
 			<g  fill="#CC5C71" stroke="#5F3650" stroke-width="6px">
 
