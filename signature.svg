@@ -12,7 +12,7 @@ svg {
   display: block;
 }
 	</style>
-	<g transform="translate(0,1250) scale(1.0000,-1.0000)" fill="#CC5C71" stroke="#CE6771" stroke-width="15px">
+	<g transform="translate(0,1250) scale(.80000,-.80000)" fill="#CC5C71" stroke="#CE6771" stroke-width="15px">
 		<g  fill="#CC5C71" stroke="#F0DA91" stroke-width="8px">
 			<g  fill="#CC5C71" stroke="#5F3650" stroke-width="6px">
 				<path d="M4060 1794 c-85 -24 -403 -176 -450 -215 -14 -11 -1 -7 30 11 204
