@@ -1,13 +1,9 @@
-
-
-
-![svgsignature](<signature.svg>)
-
-
 <p align="center">
-  <a href="https://github.com/DenverCoder1">
-    <img src="https://user-images.githubusercontent.com/20955511/199138068-0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png" alt="Jonah Lawrence" /></a>
+  <a href="https://github.com/kayaozkur">
+    <img src="signature.svg" alt="Kaya Ozkur" /></a>
 </p>
+
+
 
 <div>
             <p align="right">
@@ -344,3 +340,6 @@ Hey there! 👋 Welcome to my Github page!
 
 
 [![footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=footer&text=capsule%20render&desc=Hello%20capsule%20render&fontSize=60&animation=fadeIn)](<signature.svg>)
+
+
+![svgsignature](<signature.svg>)
