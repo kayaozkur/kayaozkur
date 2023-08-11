@@ -14,7 +14,8 @@
 - And if you have any questions or ideas, don't hesitate to reach out. 📫
 - I'm always open to collaboration and excited to build something amazing with you! 🚀
 
-[![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false&card_width=270&hide_title=true&hide_rank=true)](https://github.com/kayaozkur/github-readme-stats) 
+
+[![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false&card_width=270&hide_title=true&hide_rank=true)](https://github.com/kayaozkur/github-readme-stats)[![GitHub Streak](https://streak-stats.demolab.com?user=kayaozkur&theme=ayu-light&hide_border=true&border_radius=0&mode=weekly&card_width=200&hide_total_contributions=true&hide_longest_streak=true)](https://git.io/streak-stats)
 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=navigatoR&show_owner=true)](https://github.com/kayaozkur/navigatoR)
