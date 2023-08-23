@@ -2,10 +2,6 @@
 [![Repos Badge](https://badges.pufler.dev/repos/kayaozkur)](https://badges.pufler.dev/repos/kayaozkur)
 [![Updated Badge](https://badges.pufler.dev/updated/kayaozkur/navigatoR)](https://badges.pufler.dev/updated/kayaozkur/navigatoR) 
     
-Hey there! 👋 Welcome to my Github page! 
-
-- Analytical Specialist, numbers, trends, insights 📈 
-- Let's build something amazing together! 🚀
 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=navigatoR&show_owner=true)](https://github.com/kayaozkur/navigatoR)
