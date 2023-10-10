@@ -37,11 +37,6 @@
 
   </div>
 
-  <div align="top">
-    
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=agro_libera&show_owner=true%&card_width=500)](https://github.com/kayaozkur/agro_libera)
-
-  </div>
   
   <div align="top">
 
