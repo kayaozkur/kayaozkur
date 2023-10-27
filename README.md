@@ -1,30 +1,17 @@
 <table>
   <tr>
-  <div align="right">
-  <td valign="top">
-
-    
-  [![Years Badge](https://badges.pufler.dev/years/kayaozkur)](https://badges.pufler.dev/years/kayaozkur) 
-  [![Repos Badge](https://badges.pufler.dev/repos/kayaozkur)](https://badges.pufler.dev/repos/kayaozkur)
-  [![Updated Badge](https://badges.pufler.dev/updated/kayaozkur/navigatoR)](https://badges.pufler.dev/updated/kayaozkur/navigatoR) 
-  
-
-  </td>
-  </div>
-
-  <div align="left">
-  <td valign="top">
-
-  ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) 
-  ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) 
-  ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
-  ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 	
-
-  </td>
-  </tr>
 
 
 
+  ![Javascript](https://img.shields.io/badge/javascript-%23000000.svg?logo=javascript&style=for-the-badge)
+  ![Python](https://img.shields.io/badge/python-%23000000.svg?logoColor=yellow&logo=python&style=for-the-badge)
+  ![R](https://img.shields.io/badge/r-%23000000.svg?logo=r&logoColor=yellow&style=for-the-badge) 
+  ![Dart](https://img.shields.io/badge/dart-%23000000.svg?logo=dart&style=for-the-badge&logoColor=yellow)
+  ![Go](https://img.shields.io/badge/go-%23000000.svg?logo=go&style=for-the-badge&logoColor=yellow)
+  ![Swift](https://img.shields.io/badge/swift-%23000000.svg?logo=swift&style=for-the-badge&logoColor=yellow)
+  ![Apache](https://img.shields.io/badge/apache-%23000000.svg?logo=apache&logoColor=yellow&style=for-the-badge)
+  ![Redis](https://img.shields.io/badge/redis-%23000000.svg?logo=redis&logoColor=yellow&style=for-the-badge)
+  ![Duckdb](https://img.shields.io/badge/duckdb-%23000000.svg?logo=duckdb&logoColor=yellow&style=for-the-badge)
   
 
 
