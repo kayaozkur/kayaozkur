@@ -2,7 +2,6 @@
   <tr>
 
 
-
   ![Javascript](https://img.shields.io/badge/javascript-%23000000.svg?logo=javascript&style=for-the-badge)
   ![Python](https://img.shields.io/badge/python-%23000000.svg?logoColor=yellow&logo=python&style=for-the-badge)
   ![R](https://img.shields.io/badge/r-%23000000.svg?logo=r&logoColor=yellow&style=for-the-badge) 
