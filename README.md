@@ -2,13 +2,16 @@
   <tr>
 
 
-  ![Javascript](https://img.shields.io/badge/javascript-%23000000.svg?logo=javascript&style=for-the-badge)
-  ![Python](https://img.shields.io/badge/python-%23000000.svg?logoColor=yellow&logo=python&style=for-the-badge)
-  ![R](https://img.shields.io/badge/r-%23000000.svg?logo=r&logoColor=yellow&style=for-the-badge) 
-  ![Dart](https://img.shields.io/badge/remix-%23000000.svg?logo=dart&style=for-the-badge&logoColor=yellow)
-  ![Go](https://img.shields.io/badge/react-%23000000.svg?logo=go&style=for-the-badge&logoColor=yellow)
-  ![Redis](https://img.shields.io/badge/redis-%23000000.svg?logo=redis&logoColor=yellow&style=for-the-badge)
-  ![Duckdb](https://img.shields.io/badge/duckdb-%23000000.svg?logo=duckdb&logoColor=yellow&style=for-the-badge)
+  ![Clojure](https://img.shields.io/badge/Clojure-white.svg?logo=Clojure&style=for-the-badge&logoColor=276DC2)
+  ![Python](https://img.shields.io/badge/Python-white.svg?logo=Python&style=for-the-badge&logoColor=276DC2)
+  ![R](https://img.shields.io/badge/r-white.svg?logo=r&logoColor=276DC2&style=for-the-badge)
+  ![React](https://img.shields.io/badge/React-white.svg?logo=React&style=for-the-badge&logoColor=276DC2)
+  ![GraphQL](https://img.shields.io/badge/GraphQL-white.svg?logo=GraphQL&style=for-the-badge&logoColor=276DC2)
+  ![Duckdb](https://img.shields.io/badge/Duckdb-white.svg?logo=Duckdb&style=for-the-badge&logoColor=276DC2)
+  ![Vue.js](https://img.shields.io/badge/Vue.js-white.svg?logo=Vue.js&style=for-the-badge&logoColor=276DC2)
+  ![HTML5](https://img.shields.io/badge/HTML5-white.svg?logo=HTML5&style=for-the-badge&logoColor=276DC2)
+  ![CSS3](https://img.shields.io/badge/CSS3-white.svg?logo=CSS3&style=for-the-badge&logoColor=276DC2)
+
   
 
 
