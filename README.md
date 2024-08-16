@@ -2,7 +2,6 @@
   <tr>
 
 
-  ![Clojure](https://img.shields.io/badge/Clojure-white.svg?logo=Clojure&style=for-the-badge&logoColor=276DC2)
   ![Python](https://img.shields.io/badge/Python-white.svg?logo=Python&style=for-the-badge&logoColor=276DC2)
   ![R](https://img.shields.io/badge/r-white.svg?logo=r&logoColor=276DC2&style=for-the-badge)
   ![React](https://img.shields.io/badge/React-white.svg?logo=React&style=for-the-badge&logoColor=276DC2)
