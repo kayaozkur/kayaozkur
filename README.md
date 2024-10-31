@@ -7,10 +7,11 @@
   ![React](https://img.shields.io/badge/React-white.svg?logo=React&style=for-the-badge&logoColor=276DC2)
   ![GraphQL](https://img.shields.io/badge/GraphQL-white.svg?logo=GraphQL&style=for-the-badge&logoColor=276DC2)
   ![Duckdb](https://img.shields.io/badge/Duckdb-white.svg?logo=Duckdb&style=for-the-badge&logoColor=276DC2)
-  ![Vue.js](https://img.shields.io/badge/Vue.js-white.svg?logo=Vue.js&style=for-the-badge&logoColor=276DC2)
   ![HTML5](https://img.shields.io/badge/HTML5-white.svg?logo=HTML5&style=for-the-badge&logoColor=276DC2)
   ![CSS3](https://img.shields.io/badge/CSS3-white.svg?logo=CSS3&style=for-the-badge&logoColor=276DC2)
   ![JS](https://img.shields.io/badge/Javascript-white.svg?logo=Javascript&style=for-the-badge&logoColor=276DC2)
+  ![Ruby](https://img.shields.io/badge/Ruby-white.svg?logo=Ruby&style=for-the-badge&logoColor=276DC2)
+
 
 
   
