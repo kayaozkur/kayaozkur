@@ -10,6 +10,8 @@
   ![Vue.js](https://img.shields.io/badge/Vue.js-white.svg?logo=Vue.js&style=for-the-badge&logoColor=276DC2)
   ![HTML5](https://img.shields.io/badge/HTML5-white.svg?logo=HTML5&style=for-the-badge&logoColor=276DC2)
   ![CSS3](https://img.shields.io/badge/CSS3-white.svg?logo=CSS3&style=for-the-badge&logoColor=276DC2)
+  ![JS](https://img.shields.io/badge/CSS3-white.svg?logo=JS&style=for-the-badge&logoColor=276DC2)
+
 
   
 
