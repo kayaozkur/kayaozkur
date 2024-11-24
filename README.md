@@ -10,7 +10,6 @@
   ![HTML5](https://img.shields.io/badge/HTML5-white.svg?logo=HTML5&style=for-the-badge&logoColor=276DC2)
   ![CSS3](https://img.shields.io/badge/CSS3-white.svg?logo=CSS3&style=for-the-badge&logoColor=276DC2)
   ![JS](https://img.shields.io/badge/Javascript-white.svg?logo=Javascript&style=for-the-badge&logoColor=276DC2)
-  ![Ruby](https://img.shields.io/badge/Ruby-white.svg?logo=Ruby&style=for-the-badge&logoColor=276DC2)
 
 
 
