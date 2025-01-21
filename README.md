@@ -21,20 +21,9 @@
   <td valign="top">
   <div align="top">
     
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=navigatoR&show_owner=true%&card_width=500)](https://github.com/kayaozkur/navigatoR)
-
-  </div>
-
-  
-  <div align="top">
-
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&show_owner=true&card_width=500)](https://github.com/kayaozkur/kayaozkur)
 
   </div>
-  
-  [![Kaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=default&rank_icon=github&include_all_commits=false&card_width=400&card_height=250hide_title=true&hide_rank=true)](https://github.com/kayaozkur/github-readme-stats)
-
-
   </div>
 
   
