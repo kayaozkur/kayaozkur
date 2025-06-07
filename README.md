@@ -95,34 +95,7 @@
   </tr>
 </table>
 
-### 📈 Analytics Engineering Stack
-```yaml
-modern_data_stack:
-  ingestion:
-    - Fivetran
-    - Airbyte
-    - Stitch
-  storage:
-    - Snowflake
-    - BigQuery
-    - Databricks
-  transformation:
-    - dbt Core/Cloud
-    - Dataform
-    - Great Expectations
-  orchestration:
-    - Airflow
-    - Dagster
-    - Prefect
-  visualization:
-    - Tableau
-    - Looker
-    - Power BI
-  monitoring:
-    - Monte Carlo
-    - Datadog
-    - Elementary
-```
+
 
 ### 🏗️ Data Engineering Architecture
 ```python
