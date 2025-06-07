@@ -1,42 +1,150 @@
+# Welcome to My GitHub Profile! 👋
+
+<div align="center">
+  
+  ## 🚀 Tech Stack & Tools
+  
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+  ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+  ![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+  
+  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+  ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
 <table>
-  <tr>
+<tr>
+<td width="50%" valign="top">
 
+### 📊 About Me
 
-  ![Python](https://img.shields.io/badge/Python-white.svg?logo=Python&style=for-the-badge&logoColor=276DC2)
-  ![R](https://img.shields.io/badge/r-white.svg?logo=r&logoColor=276DC2&style=for-the-badge)
-  ![React](https://img.shields.io/badge/React-white.svg?logo=React&style=for-the-badge&logoColor=276DC2)
-  ![GraphQL](https://img.shields.io/badge/GraphQL-white.svg?logo=GraphQL&style=for-the-badge&logoColor=276DC2)
-  ![Duckdb](https://img.shields.io/badge/Duckdb-white.svg?logo=Duckdb&style=for-the-badge&logoColor=276DC2)
-  ![HTML5](https://img.shields.io/badge/HTML5-white.svg?logo=HTML5&style=for-the-badge&logoColor=276DC2)
-  ![CSS3](https://img.shields.io/badge/CSS3-white.svg?logo=CSS3&style=for-the-badge&logoColor=276DC2)
-  ![JS](https://img.shields.io/badge/Javascript-white.svg?logo=Javascript&style=for-the-badge&logoColor=276DC2)
+```r
+# Define Print Function 🔹
+print_experience <- function(experience) {
+  experience %>%
+    print(paste("🚀 Role:", role))
+    print(paste("💥 Summary:", summary))
+}
 
+# Create Experience DF 🔹
+experience_df <- data.frame(
+  Role = c(
+    "Lead Analytics & Eng Consultant 🔨",
+    "Data Analytics Consultant 📈",
+    "Risk Management Consultant 🌾",
+    "Business Development Consultant 💼",
+    "Equity & Loan Portfolio Analyst ✍",
+    "New Markets Business Analyst 🔋"
+  ),
+  Summary = c(
+    "Translated data into insights 📊",
+    "Delivered market intelligence 🌐",
+    "Streamlined analytic workflows 💰",
+    "Automated report preparation 📑",
+    "Defined and tracked new KPIs 🎯"
+  )
+)
 
+experience <- as_tibble(experience_df)
+print_experience(experience)
+```
 
-  
+</td>
+<td width="50%" valign="top">
 
+### 🛠️ Core Competencies
 
-  <div>
-  <tr>
-  <td valign="top">
-  <div align="top">
-    
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&show_owner=true&card_width=500)](https://github.com/kayaozkur/kayaozkur)
+```python
+# Skills & Expertise 
+skills = {
+    "Data_Visualization": [
+        "Tableau", "Power BI", "Plotly", 
+        "D3.js", "Matplotlib", "ggplot2"
+    ],
+    "Programming": [
+        "Python", "R", "SQL", "JavaScript",
+        "GraphQL", "HTML/CSS"
+    ],
+    "Data_Engineering": [
+        "DuckDB", "PostgreSQL", "MongoDB",
+        "Apache Spark", "ETL Pipelines"
+    ],
+    "Analytics_Focus": [
+        "Statistical Analysis", "Machine Learning",
+        "Economic Modeling", "Marketing Analytics",
+        "Risk Assessment", "Portfolio Analysis"
+    ],
+    "Tools": [
+        "Git", "Docker", "AWS", "Jupyter",
+        "RStudio", "VS Code"
+    ]
+}
 
-  </div>
-  </div>
-
-  
-  
-  </td>  
-  <td valign="top">
-    <p>
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=17&duration=300&pause=75&color=0D214D&background=E8E8E8&vCenter=true&multiline=true&repeat=false&height=975&width=390&lines=%E2%A0%80%23+Define+Print+Function+%F0%9F%94%B9;%E2%A0%80;%E2%A0%80print_experience+%3C-+function(experience)+%7B;%E2%A0%80%E2%A0%80experience+%25%3E%25;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80print(paste(%22%F0%9F%9A%80+Role%3A%22%2C+role));%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80print(paste(%22%F0%9F%92%A5+Summary%3A%22%2C+summary));%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%7D);%E2%A0%80%7D;%E2%A0%80__________________________%E2%A0%80%E2%A0%80%E2%A0%80;%E2%A0%80%23+Create+Experience+DF+%F0%9F%94%B9;%E2%A0%80;%E2%A0%80experience_df+%3C-+data.frame(;%E2%A0%80%E2%A0%80Role+%3D+c(;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Lead+Analytx+and+Eng+Consultant+🔨%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Data+Analytics+Consultant+%F0%9F%93%88%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Risk+Management+Consultant+%F0%9F%8C%BE%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Business+Development+Consultant+%F0%9F%92%BC%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Equity+%26+Loan+Portfolio+Analyst+%E2%9C%8D%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22New+Markets+Business+Analyst++%F0%9F%94%8B%22;%E2%A0%80%E2%A0%80)%2C;%E2%A0%80%E2%A0%80Summary%3D+c(;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Translated+data+into+insights+%F0%9F%93%8A%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Delivered+market+intelligence+%F0%9F%8C%90%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Streamlined+analytic+workflows+%F0%9F%92%B0%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Automated+report+preparation+%F0%9F%93%91%22%2C;%E2%A0%80%E2%A0%80%E2%A0%80%E2%A0%80%22Defined+and+tracked+new+KPIs+%F0%9F%8E%AF%22;%E2%A0%80;%E2%A0%80experience+%3C-+as_tibble(experience_df);%E2%A0%80print_experience(experience);%E2%A0%80__________________________;%E2%A0%80%23+Define+Skill+Function+%F0%9F%94%B9;%E2%A0%80;%E2%A0%80print_skills+%3C-+function(skills)+%7B;%E2%A0%80%E2%A0%80print(%22+Skills+%F0%9F%9B%A0%EF%B8%8F%3A%22);%E2%A0%80%7D;%E2%A0%80__________________________;%E2%A0%80%23+Skills+Vector+%F0%9F%94%B9;%E2%A0%80;%E2%A0%80skills+%3C-+c(;%E2%A0%80%E2%A0%80%22Data+Viz%3A+Tableau%2C+PowerBI%2C+etc.+%F0%9F%A4%B9%F0%9F%8F%BD%E2%80%8D%E2%99%82%EF%B8%8F%22;%E2%A0%80%E2%A0%80%22Programming%3A+R%2C+Python%2C+SQL%2C+etc.+%F0%9F%A7%99%F0%9F%8F%BD%E2%80%8D%E2%99%82%EF%B8%8F%22%2C;%E2%A0%80%E2%A0%80%22Focus%3A++Stats%2C+ML%2C+Econ+%26+Marketing%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%8D%B3%22);%E2%A0%80;%E2%A0%80%E2%A0%80print_skills(skills)" alt="Typing SVG"/></a>
-  </p>
+for category, items in skills.items():
+    print(f"✨ {category.replace('_', ' ')}:")
+    for skill in items:
+        print(f"   • {skill}")
+```
 
 </td>
 </tr>
 </table>
 
+---
 
+<div align="center">
 
+### 📈 GitHub Stats
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&layout=compact&langs_count=8&theme=tokyonight"/>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🎯 Current Focus
+
+- 🔭 Working on advanced data analytics solutions
+- 🌱 Learning cloud-native data architectures
+- 👯 Looking to collaborate on open-source analytics projects
+- 💬 Ask me about data visualization, statistical modeling, or financial analytics
+- 📫 How to reach me: [Add your contact info here]
+
+### 📊 Recent Projects
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&theme=tokyonight)](https://github.com/kayaozkur/kayaozkur)
+
+</div>
+
+---
+
+<div align="center">
+  
+  ### 🌟 Let's Connect!
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
+  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+  
+  <img src="https://komarev.com/ghpvc/?username=kayaozkur&style=flat-square&color=blue" alt="Profile views"/>
+  
+</div>
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Thanks+for+visiting!+✨;Happy+coding!+🚀" alt="Typing SVG" />
+</div>
