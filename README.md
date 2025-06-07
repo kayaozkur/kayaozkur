@@ -22,138 +22,98 @@
 
 ---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 📊 Professional Experience
 
-### 📊 About Me
+<details>
+<summary><b>Data Analytics Engineering</b></summary>
 
 ```r
-# Define Professional Experience Function 🔹
-analyze_career <- function(professional_data) {
-  library(tidyverse)
-  library(DBI)
-  
-  professional_data %>%
-    group_by(domain) %>%
-    summarise(
-      impact = paste(role, achievement, sep = ": "),
-      tech_stack = list(technologies)
-    ) %>%
-    print()
-}
-
-# Create Professional Journey DataFrame 🔹
-career_path <- tibble(
-  domain = c(
-    "Data Analytics Engineering",
-    "Data Science & ML",
-    "Database Architecture",
-    "Data Pipeline Engineering",
-    "API & Backend Development",
-    "Business Intelligence"
-  ),
-  role = c(
-    "Sr. Analytics Engineer 🏗️",
-    "Data Scientist 🧪",
-    "Database Architect 🗄️",
-    "Data Pipeline Engineer 🔧",
-    "Backend API Developer 🌐",
-    "BI Solutions Architect 📊"
-  ),
-  achievement = c(
-    "Built scalable analytics infrastructure",
-    "Deployed ML models for business impact",
-    "Optimized database performance",
-    "Designed real-time data pipelines",
-    "Developed high-performance APIs",
-    "Created data-driven dashboards"
-  ),
-  technologies = list(
-    c("dbt", "Airflow", "Spark", "Snowflake"),
-    c("TensorFlow", "scikit-learn", "MLflow", "Kubeflow"),
-    c("PostgreSQL", "MongoDB", "Redis", "Cassandra"),
-    c("Kafka", "Flink", "Delta Lake", "Databricks"),
-    c("FastAPI", "GraphQL", "Docker", "Kubernetes"),
-    c("Tableau", "Looker", "PowerBI", "Superset")
-  )
+# Analytics Infrastructure Development
+analytics_eng <- list(
+  role = "Sr. Analytics Engineer 🏗️",
+  impact = "Built scalable analytics infrastructure",
+  stack = c("dbt", "Airflow", "Spark", "Snowflake")
 )
-
-# Execute Analysis
-analyze_career(career_path)
 ```
+</details>
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b>Data Science & ML</b></summary>
 
-### 🛠️ Core Competencies
+```r
+# Machine Learning Solutions
+data_science <- list(
+  role = "Data Scientist 🧪",
+  impact = "Deployed ML models for business impact",
+  stack = c("TensorFlow", "scikit-learn", "MLflow")
+)
+```
+</details>
+
+<details>
+<summary><b>Database & Pipeline Engineering</b></summary>
+
+```r
+# Data Infrastructure
+data_eng <- list(
+  databases = c("PostgreSQL", "MongoDB", "Redis"),
+  pipelines = c("Kafka", "Flink", "Databricks"),
+  apis = c("FastAPI", "GraphQL", "Docker")
+)
+```
+</details>
+
+### 🤖 AI/ML & LLM Expertise
+
+<details>
+<summary><b>LLM Development</b></summary>
 
 ```python
-# AI/ML & LLM Engineering Stack 
-ai_stack = {
-    "LLM_Development": {
-        "frameworks": ["LangChain", "LlamaIndex", 
-                      "Semantic Kernel", "Haystack"],
-        "models": ["GPT-4", "Claude", "Llama2", 
-                   "Mistral", "BERT", "T5"],
-        "vector_dbs": ["Pinecone", "Weaviate", "Qdrant", 
-                       "ChromaDB", "FAISS"],
-        "techniques": ["RAG", "Fine-tuning", 
-                       "Prompt Engineering", "Chain-of-Thought"]
-    },
-    "ML_Engineering": {
-        "deep_learning": ["PyTorch", "TensorFlow", 
-                          "JAX", "Keras"],
-        "ml_ops": ["MLflow", "Weights & Biases", 
-                   "DVC", "Kubeflow"],
-        "deployment": ["TorchServe", "TensorFlow Serving", 
-                       "ONNX", "Triton"],
-        "optimization": ["Quantization", "Pruning", 
-                         "Knowledge Distillation"]
-    },
-    "AI_Infrastructure": {
-        "monitoring": ["Evidently AI", "Neptune.ai", 
-                       "Comet ML"],
-        "pipelines": ["Apache Beam", "Prefect", 
-                      "Dagster", "Metaflow"],
-        "cloud_ai": ["SageMaker", "Vertex AI", 
-                     "Azure ML", "Databricks ML"]
-    },
-    "NLP_Computer_Vision": {
-        "nlp": ["spaCy", "NLTK", 
-                "Transformers", "Gensim"],
-        "cv": ["OpenCV", "YOLO", 
-               "Detectron2", "MediaPipe"],
-        "multimodal": ["CLIP", "DALL-E", 
-                       "Stable Diffusion APIs"],
-        "embeddings": ["Sentence Transformers", 
-                       "OpenAI Embeddings", "Cohere"]
-    },
-    "AI_Applications": {
-        "chatbots": ["Rasa", "Botpress", 
-                     "Microsoft Bot Framework"],
-        "search": ["Elasticsearch", "Algolia", 
-                   "Typesense"],
-        "recommendation": ["Surprise", "LightFM", 
-                           "TensorFlow Recommenders"],
-        "automation": ["AutoML", "H2O.ai", 
-                       "AutoGluon", "TPOT"]
-    }
+llm_stack = {
+    "frameworks": ["LangChain", "LlamaIndex", "Semantic Kernel"],
+    "models": ["GPT-4", "Claude", "Llama2", "Mistral"],
+    "vector_dbs": ["Pinecone", "Weaviate", "ChromaDB"],
+    "techniques": ["RAG", "Fine-tuning", "Prompt Engineering"]
 }
-
-# Display AI/ML Capabilities
-for category, subcategories in ai_stack.items():
-    print(f"\n🤖 {category.replace('_', ' ')}:")
-    for subcat, tools in subcategories.items():
-        print(f"  📌 {subcat}:")
-        print(f"     {', '.join(tools[:2])}")
-        if len(tools) > 2:
-            print(f"     {', '.join(tools[2:])}")
 ```
+</details>
 
-</td>
-</tr>
-</table>
+<details>
+<summary><b>ML Engineering & Infrastructure</b></summary>
+
+```python
+ml_eng = {
+    "deep_learning": ["PyTorch", "TensorFlow", "JAX"],
+    "ml_ops": ["MLflow", "Weights & Biases", "Kubeflow"],
+    "deployment": ["TorchServe", "ONNX", "Triton"],
+    "cloud_ai": ["SageMaker", "Vertex AI", "Azure ML"]
+}
+```
+</details>
+
+<details>
+<summary><b>Applied AI Solutions</b></summary>
+
+```python
+ai_apps = {
+    "nlp": ["spaCy", "Transformers", "NLTK"],
+    "computer_vision": ["OpenCV", "YOLO", "Detectron2"],
+    "search": ["Elasticsearch", "Vector Search", "Embeddings"],
+    "automation": ["AutoML", "H2O.ai", "AutoGluon"]
+}
+```
+</details>
+
+---
+
+<div align="center">
+
+### 📈 GitHub Stats
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&layout=compact&langs_count=8&theme=tokyonight"/>
+
+</div>
 
 ---
 
@@ -167,6 +127,15 @@ for category, subcategories in ai_stack.items():
 - 💬 Ask me about data visualization, statistical modeling, or financial analytics
 - 📫 How to reach me: [Add your contact info here]
 
+### 📊 Recent Projects
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&theme=tokyonight)](https://github.com/kayaozkur/kayaozkur)
+
+</div>
+
+---
+
+<div align="center">
   
   ### 🌟 Let's Connect!
   
