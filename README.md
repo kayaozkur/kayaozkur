@@ -24,7 +24,8 @@
 
 ### 🔧 Data Engineering & Analytics
 
-<b>View Full Stack</b>
+<details>
+<summary><b>View Full Stack</b></summary>
 
 ```r
 # Data Engineering Professional Stack
@@ -49,12 +50,12 @@ data_engineering_expertise <- list(
   )
 )
 ```
-
+</details>
 
 ### 🤖 AI/ML & LLM Engineering
 
-
-<b>View AI/ML Stack</b>
+<details>
+<summary><b>View AI/ML Stack</b></summary>
 
 ```python
 # AI/ML Engineering Professional Stack
@@ -82,9 +83,32 @@ ai_ml_expertise = {
     }
 }
 ```
+</details>
 
+---
 
+<div align="center">
 
+### 📈 GitHub Stats
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&layout=compact&langs_count=8&theme=tokyonight"/>
+
+</div>
+
+---
+
+<div align="center">
+
+### 📊 Recent Projects
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&theme=tokyonight)](https://github.com/kayaozkur/kayaozkur)
+
+</div>
+
+---
+
+<div align="center">
   
   ### 🌟 Let's Connect!
   
@@ -96,3 +120,8 @@ ai_ml_expertise = {
   
 </div>
 
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Thanks+for+visiting!+✨;Happy+coding!+🚀" alt="Typing SVG" />
+</div>
