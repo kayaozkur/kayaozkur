@@ -29,7 +29,7 @@
 ## 🚀 Tech Arsenal
 
 <!-- Animated tech stack showcase -->
-<div align="left">
+<div align="center">
   
 ### 🧠 AI/ML & LLM Engineering
 <div>
@@ -121,4 +121,140 @@ WHERE impact = 'HIGH';
 </div>
 
 <details>
-<summary><b>🔥 Recent Activity</b></summ
+<summary><b>🔥 Recent Activity</b></summary>
+<br/>
+
+<!--START_SECTION:activity-->
+<!-- This section can be automated with GitHub Actions -->
+1. 🚀 Pushed to `main` in `kayaozkur/llm-orchestration`
+2. 🎯 Opened PR in `awesome-project/data-pipeline`
+3. 💬 Commented on issue in `open-source/ml-toolkit`
+4. ⭐ Starred `trending/ai-agents`
+5. 🔧 Fixed bug in `kayaozkur/analytics-engine`
+<!--END_SECTION:activity-->
+
+</details>
+
+---
+
+## 🌟 Featured Projects
+
+<div align="center">
+  
+<!-- Project cards with live stats -->
+<a href="https://github.com/kayaozkur/your-project-1">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=your-project-1&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+</a>
+<a href="https://github.com/kayaozkur/your-project-2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=your-project-2&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+</a>
+
+</div>
+
+---
+
+## 💡 Latest Blog Posts & Thoughts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- This section can be automated with GitHub Actions -->
+- 🚀 [Building Production RAG Systems at Scale](https://your-blog.com)
+- 🧠 [Multi-Agent Orchestration with LangChain](https://your-blog.com)
+- 📊 [Real-time Analytics with DuckDB](https://your-blog.com)
+- 🔧 [MLOps Best Practices in 2025](https://your-blog.com)
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## 🤝 Let's Connect & Collaborate
+
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kayaozkur)
+  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kayaozkur)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kaya@example.com)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://kayaozkur.dev)
+  
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=kayaozkur&style=for-the-badge&color=58A6FF" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/kayaozkur?style=for-the-badge&color=58A6FF" alt="Followers" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer&animation=fadeIn" width="100%" />
+</div>
+
+<!-- Snake animation -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kayaozkur/kayaozkur/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/kayaozkur/kayaozkur/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://github.com/kayaozkur/kayaozkur/blob/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+<!-- GitHub Actions Setup Instructions -->
+<!--
+### 🔧 GitHub Actions Setup (Optional)
+
+To automate updates to this README:
+
+1. **Blog Posts Workflow** (.github/workflows/blog-post-workflow.yml):
+```yaml
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://your-blog.com/feed"
+```
+
+2. **Recent Activity** (.github/workflows/update-readme.yml):
+```yaml
+name: Update README
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. **Snake Animation** (.github/workflows/snake.yml):
+```yaml
+name: Generate snake animation
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: kayaozkur
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+```
+-->
