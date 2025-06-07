@@ -22,84 +22,65 @@
 
 ---
 
-### 📊 Professional Experience
+### 🔧 Data Engineering & Analytics
 
 <details>
-<summary><b>Data Analytics Engineering</b></summary>
+<summary><b>View Full Stack</b></summary>
 
 ```r
-# Analytics Infrastructure Development
-analytics_eng <- list(
-  role = "Sr. Analytics Engineer 🏗️",
-  impact = "Built scalable analytics infrastructure",
-  stack = c("dbt", "Airflow", "Spark", "Snowflake")
+# Data Engineering Professional Stack
+data_engineering_expertise <- list(
+  
+  analytics_engineering = list(
+    role = "Sr. Analytics Engineer 🏗️",
+    impact = "Built scalable analytics infrastructure",
+    stack = c("dbt", "Airflow", "Spark", "Snowflake")
+  ),
+  
+  data_science = list(
+    role = "Data Scientist 🧪",
+    impact = "Deployed ML models for business impact",
+    stack = c("TensorFlow", "scikit-learn", "MLflow")
+  ),
+  
+  infrastructure = list(
+    databases = c("PostgreSQL", "MongoDB", "Redis", "Cassandra"),
+    pipelines = c("Kafka", "Flink", "Databricks", "Beam"),
+    apis = c("FastAPI", "GraphQL", "Docker", "Kubernetes")
+  )
 )
 ```
 </details>
 
-<details>
-<summary><b>Data Science & ML</b></summary>
-
-```r
-# Machine Learning Solutions
-data_science <- list(
-  role = "Data Scientist 🧪",
-  impact = "Deployed ML models for business impact",
-  stack = c("TensorFlow", "scikit-learn", "MLflow")
-)
-```
-</details>
+### 🤖 AI/ML & LLM Engineering
 
 <details>
-<summary><b>Database & Pipeline Engineering</b></summary>
-
-```r
-# Data Infrastructure
-data_eng <- list(
-  databases = c("PostgreSQL", "MongoDB", "Redis"),
-  pipelines = c("Kafka", "Flink", "Databricks"),
-  apis = c("FastAPI", "GraphQL", "Docker")
-)
-```
-</details>
-
-### 🤖 AI/ML & LLM Expertise
-
-<details>
-<summary><b>LLM Development</b></summary>
+<summary><b>View AI/ML Stack</b></summary>
 
 ```python
-llm_stack = {
-    "frameworks": ["LangChain", "LlamaIndex", "Semantic Kernel"],
-    "models": ["GPT-4", "Claude", "Llama2", "Mistral"],
-    "vector_dbs": ["Pinecone", "Weaviate", "ChromaDB"],
-    "techniques": ["RAG", "Fine-tuning", "Prompt Engineering"]
-}
-```
-</details>
-
-<details>
-<summary><b>ML Engineering & Infrastructure</b></summary>
-
-```python
-ml_eng = {
-    "deep_learning": ["PyTorch", "TensorFlow", "JAX"],
-    "ml_ops": ["MLflow", "Weights & Biases", "Kubeflow"],
-    "deployment": ["TorchServe", "ONNX", "Triton"],
-    "cloud_ai": ["SageMaker", "Vertex AI", "Azure ML"]
-}
-```
-</details>
-
-<details>
-<summary><b>Applied AI Solutions</b></summary>
-
-```python
-ai_apps = {
-    "nlp": ["spaCy", "Transformers", "NLTK"],
-    "computer_vision": ["OpenCV", "YOLO", "Detectron2"],
-    "search": ["Elasticsearch", "Vector Search", "Embeddings"],
-    "automation": ["AutoML", "H2O.ai", "AutoGluon"]
+# AI/ML Engineering Professional Stack
+ai_ml_expertise = {
+    
+    "llm_development": {
+        "frameworks": ["LangChain", "LlamaIndex", "Semantic Kernel"],
+        "models": ["GPT-4", "Claude", "Llama2", "Mistral"],
+        "vector_dbs": ["Pinecone", "Weaviate", "ChromaDB"],
+        "techniques": ["RAG", "Fine-tuning", "Prompt Engineering"]
+    },
+    
+    "ml_infrastructure": {
+        "deep_learning": ["PyTorch", "TensorFlow", "JAX"],
+        "ml_ops": ["MLflow", "Weights & Biases", "Kubeflow"],
+        "deployment": ["TorchServe", "ONNX", "Triton"],
+        "cloud_ai": ["SageMaker", "Vertex AI", "Azure ML"]
+    },
+    
+    "applied_ai": {
+        "nlp": ["spaCy", "Transformers", "NLTK"],
+        "computer_vision": ["OpenCV", "YOLO", "Detectron2"],
+        "search": ["Elasticsearch", "Vector Search", "Embeddings"],
+        "automation": ["AutoML", "H2O.ai", "AutoGluon"]
+    }
 }
 ```
 </details>
@@ -108,15 +89,13 @@ ai_apps = {
 
 <div align="center">
 
-
 ### 🎯 Current Focus
 
 - 🔭 Working on advanced data analytics solutions
 - 🌱 Learning cloud-native data architectures
-- 👯 Looking to collaborate on open-source analytics projects
-- 💬 Ask me about data visualization, statistical modeling, or financial analytics
-- 📫 How to reach me: [Add your contact info here]
 
+
+<div align="center">
   
   ### 🌟 Let's Connect!
   
