@@ -139,7 +139,7 @@ data_scientist_role = {
 WITH kaya_profile AS (
     SELECT 
         'Kaya Ozkur' AS full_name,
-        'Senior Data Engineer' AS current_role,
+        'Senior Data and Analytics Engineer' AS current_role,
         ARRAY['Python', 'SQL', 'R', 'JavaScript'] AS languages,
         ARRAY['LangChain', 'dbt', 'Spark', 'Airflow'] AS favorite_tools,
         5 AS years_experience,
