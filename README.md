@@ -24,8 +24,7 @@
 
 ### 🔧 Data Engineering & Analytics
 
-<details>
-<summary><b>View Full Stack</b></summary>
+<b>View Full Stack</b>
 
 ```r
 # Data Engineering Professional Stack
@@ -50,12 +49,11 @@ data_engineering_expertise <- list(
   )
 )
 ```
-</details>
+
 
 ### 🤖 AI/ML & LLM Engineering
 
-<details>
-<summary><b>View AI/ML Stack</b></summary>
+<b>View AI/ML Stack</b>
 
 ```python
 # AI/ML Engineering Professional Stack
@@ -83,7 +81,7 @@ ai_ml_expertise = {
     }
 }
 ```
-</details>
+
 
 ---
 
