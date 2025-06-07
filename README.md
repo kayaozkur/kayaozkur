@@ -112,10 +112,6 @@ for category, items in skills.items():
 - 💬 Ask me about data visualization, statistical modeling, or financial analytics
 - 📫 How to reach me: [Add your contact info here]
 
-### 📊 Recent Projects
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&theme=tokyonight)](https://github.com/kayaozkur/kayaozkur)
-
 </div>
 
 ---
