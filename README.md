@@ -90,44 +90,67 @@ analyze_career(career_path)
 
 ```python
 # AI/ML & LLM Engineering Stack 
-ai_engineering_stack = {
+ai_stack = {
     "LLM_Development": {
-        "frameworks": ["LangChain", "LlamaIndex", "Semantic Kernel", "Haystack"],
-        "models": ["GPT-4", "Claude", "Llama2", "Mistral", "BERT", "T5"],
-        "vector_dbs": ["Pinecone", "Weaviate", "Qdrant", "ChromaDB", "FAISS"],
-        "techniques": ["RAG", "Fine-tuning", "Prompt Engineering", "Chain-of-Thought"]
+        "frameworks": ["LangChain", "LlamaIndex", 
+                      "Semantic Kernel", "Haystack"],
+        "models": ["GPT-4", "Claude", "Llama2", 
+                   "Mistral", "BERT", "T5"],
+        "vector_dbs": ["Pinecone", "Weaviate", "Qdrant", 
+                       "ChromaDB", "FAISS"],
+        "techniques": ["RAG", "Fine-tuning", 
+                       "Prompt Engineering", "Chain-of-Thought"]
     },
     "ML_Engineering": {
-        "deep_learning": ["PyTorch", "TensorFlow", "JAX", "Keras"],
-        "ml_ops": ["MLflow", "Weights & Biases", "DVC", "Kubeflow"],
-        "deployment": ["TorchServe", "TensorFlow Serving", "ONNX", "Triton"],
-        "optimization": ["Quantization", "Pruning", "Knowledge Distillation"]
+        "deep_learning": ["PyTorch", "TensorFlow", 
+                          "JAX", "Keras"],
+        "ml_ops": ["MLflow", "Weights & Biases", 
+                   "DVC", "Kubeflow"],
+        "deployment": ["TorchServe", "TensorFlow Serving", 
+                       "ONNX", "Triton"],
+        "optimization": ["Quantization", "Pruning", 
+                         "Knowledge Distillation"]
     },
     "AI_Infrastructure": {
-        "compute": ["CUDA", "Ray", "Horovod", "DeepSpeed"],
-        "monitoring": ["Evidently AI", "Neptune.ai", "Comet ML"],
-        "pipelines": ["Apache Beam", "Prefect", "Dagster", "Metaflow"],
-        "cloud_ai": ["SageMaker", "Vertex AI", "Azure ML", "Databricks ML"]
+        "compute": ["CUDA", "Ray", 
+                    "Horovod", "DeepSpeed"],
+        "monitoring": ["Evidently AI", "Neptune.ai", 
+                       "Comet ML"],
+        "pipelines": ["Apache Beam", "Prefect", 
+                      "Dagster", "Metaflow"],
+        "cloud_ai": ["SageMaker", "Vertex AI", 
+                     "Azure ML", "Databricks ML"]
     },
     "NLP_Computer_Vision": {
-        "nlp": ["spaCy", "NLTK", "Transformers", "Gensim"],
-        "cv": ["OpenCV", "YOLO", "Detectron2", "MediaPipe"],
-        "multimodal": ["CLIP", "DALL-E", "Stable Diffusion APIs"],
-        "embeddings": ["Sentence Transformers", "OpenAI Embeddings", "Cohere"]
+        "nlp": ["spaCy", "NLTK", 
+                "Transformers", "Gensim"],
+        "cv": ["OpenCV", "YOLO", 
+               "Detectron2", "MediaPipe"],
+        "multimodal": ["CLIP", "DALL-E", 
+                       "Stable Diffusion APIs"],
+        "embeddings": ["Sentence Transformers", 
+                       "OpenAI Embeddings", "Cohere"]
     },
     "AI_Applications": {
-        "chatbots": ["Rasa", "Botpress", "Microsoft Bot Framework"],
-        "search": ["Elasticsearch", "Algolia", "Typesense"],
-        "recommendation": ["Surprise", "LightFM", "TensorFlow Recommenders"],
-        "automation": ["AutoML", "H2O.ai", "AutoGluon", "TPOT"]
+        "chatbots": ["Rasa", "Botpress", 
+                     "Microsoft Bot Framework"],
+        "search": ["Elasticsearch", "Algolia", 
+                   "Typesense"],
+        "recommendation": ["Surprise", "LightFM", 
+                           "TensorFlow Recommenders"],
+        "automation": ["AutoML", "H2O.ai", 
+                       "AutoGluon", "TPOT"]
     }
 }
 
 # Display AI/ML Capabilities
-for category, subcategories in ai_engineering_stack.items():
+for category, subcategories in ai_stack.items():
     print(f"\n🤖 {category.replace('_', ' ')}:")
     for subcat, tools in subcategories.items():
-        print(f"  📌 {subcat}: {', '.join(tools[:4])}")
+        print(f"  📌 {subcat}:")
+        print(f"     {', '.join(tools[:2])}")
+        if len(tools) > 2:
+            print(f"     {', '.join(tools[2:])}")
 ```
 
 </td>
@@ -142,8 +165,11 @@ for category, subcategories in ai_engineering_stack.items():
 
 - 🔭 Working on advanced data analytics solutions
 - 🌱 Learning cloud-native data architectures
+- 👯 Looking to collaborate on open-source analytics projects
+- 💬 Ask me about data visualization, statistical modeling, or financial analytics
+- 📫 How to reach me: [Add your contact info here]
 
-
+  
   ### 🌟 Let's Connect!
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
