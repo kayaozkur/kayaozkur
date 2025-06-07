@@ -26,12 +26,12 @@
 
 ---
 
-## 🚀 Tech Arsenal
+## ▸ Tech Arsenal
 
 <!-- Animated tech stack showcase -->
 <div align="center">
   
-### 🧠 AI/ML & LLM Engineering
+### AI/ML & LLM Engineering
 <div>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
@@ -41,7 +41,7 @@
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
 </div>
 
-### 📊 Data Engineering & Analytics
+### Data Engineering & Analytics
 <div>
   <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
   <img src="https://img.shields.io/badge/dbt-FF6B6B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt" />
@@ -51,7 +51,7 @@
   <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
 </div>
 
-### 💻 Languages & Frameworks
+### Languages & Frameworks
 <div>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
@@ -65,11 +65,11 @@
 
 ---
 
-## 🔬 Data Science & ML Expertise
+## ▸ Data Science & ML Expertise
 
 <div align="center">
 
-### 🎯 Specializations
+### Specializations
 <table>
   <tr>
     <td align="center" width="25%">
@@ -95,14 +95,13 @@
   </tr>
 </table>
 
-
 </div>
 
 ---
 
-## 🎯 What I'm Building
+## ▸ What I'm Building
 
-### 🤖 AI/ML & Data Science
+### AI/ML & Data Science
 ```python
 current_focus = {
     "llm_engineering": {
@@ -123,7 +122,7 @@ current_focus = {
 }
 ```
 
-### 📊 Data Science Responsibilities
+### Data Science Responsibilities
 ```python
 data_scientist_role = {
     "analysis": ["Statistical Modeling", "Hypothesis Testing", "Causal Inference"],
@@ -134,31 +133,59 @@ data_scientist_role = {
 }
 ```
 
-### 📈 Data & Analytics Engineering
+### Data & Analytics Engineering
 ```sql
--- Production Analytics Infrastructure
-WITH pipeline_health AS (
+-- Building scalable analytics infrastructure for data-driven decisions
+WITH user_engagement_metrics AS (
+    -- Compute user engagement patterns with sophisticated window functions
     SELECT 
-        workflow_name,
-        COUNT(*) AS total_runs,
-        AVG(runtime_seconds) AS avg_runtime,
-        PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY runtime_seconds) AS p95_runtime
-    FROM airflow_task_instances
-    WHERE execution_date >= CURRENT_DATE - 7
-    GROUP BY workflow_name
+        user_id,
+        DATE_TRUNC('week', event_timestamp) AS week,
+        COUNT(DISTINCT session_id) AS sessions,
+        COUNT(DISTINCT DATE(event_timestamp)) AS active_days,
+        SUM(event_value) AS total_engagement_score,
+        -- Calculate week-over-week growth
+        LAG(COUNT(*), 1) OVER (PARTITION BY user_id ORDER BY DATE_TRUNC('week', event_timestamp)) AS prev_week_events,
+        -- Identify power users
+        NTILE(10) OVER (ORDER BY COUNT(*) DESC) AS engagement_decile
+    FROM events
+    WHERE event_timestamp >= DATEADD('month', -3, CURRENT_DATE())
+    GROUP BY 1, 2
+),
+cohort_analysis AS (
+    -- Advanced cohort retention analysis
+    SELECT 
+        cohort_month,
+        months_since_signup,
+        COUNT(DISTINCT user_id) AS cohort_users,
+        SUM(revenue) AS cohort_revenue,
+        COUNT(DISTINCT user_id) / FIRST_VALUE(COUNT(DISTINCT user_id)) 
+            OVER (PARTITION BY cohort_month ORDER BY months_since_signup) AS retention_rate
+    FROM user_cohorts
+    GROUP BY 1, 2
 )
-SELECT * FROM pipeline_health 
-WHERE total_runs > 100 
-ORDER BY p95_runtime DESC;
+-- Final business metrics with statistical significance
+SELECT 
+    m.*,
+    c.retention_rate,
+    -- Calculate statistical significance for experiments
+    CASE 
+        WHEN m.sessions > 30 AND c.retention_rate > 0.4 
+        THEN 'High Value Segment'
+        ELSE 'Standard Segment'
+    END AS user_segment
+FROM user_engagement_metrics m
+JOIN cohort_analysis c ON m.week = c.cohort_month
+WHERE m.engagement_decile <= 3  -- Focus on top 30% users
 ```
 
 ---
 
-## 🔬 Data Science & Engineering Showcase
+## ▸ Data Science & Engineering Showcase
 
 <div align="center">
 
-### 🚀 Data Pipeline Architecture
+### Data Pipeline Architecture
 
 <table>
 <tr>
@@ -222,7 +249,7 @@ class DataPlatform:
 
 ---
 
-## 📊 GitHub Analytics
+## ▸ GitHub Analytics
 
 <div align="center">
   <table>
@@ -241,7 +268,7 @@ class DataPlatform:
 
 ---
 
-## 🏆 Achievements & Contributions
+## ▸ Achievements & Contributions
 
 <div align="center">
   
@@ -250,7 +277,7 @@ class DataPlatform:
 </div>
 
 <details>
-<summary><b>🔥 Recent Activity</b></summary>
+<summary><b>Recent Activity</b></summary>
 <br/>
 
 <!--START_SECTION:activity-->
@@ -287,15 +314,15 @@ jobs:
 
 ---
 
-## 🌟 Featured Projects
+## ▸ Featured Projects
 
 <div align="center">
 
-### 🚀 Data Science & ML Projects
+### Data Science & ML Projects
 <table>
   <tr>
     <td width="50%">
-      <h4>🤖 LLM-Powered Analytics Platform</h4>
+      <h4>LLM-Powered Analytics Platform</h4>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
       <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
@@ -303,7 +330,7 @@ jobs:
       <p>Natural language to SQL queries with RAG-enhanced context understanding</p>
     </td>
     <td width="50%">
-      <h4>📊 Real-time Anomaly Detection</h4>
+      <h4>Real-time Anomaly Detection</h4>
       <img src="https://img.shields.io/badge/Apache_Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white" />
       <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
       <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
@@ -313,11 +340,11 @@ jobs:
   </tr>
 </table>
 
-### 🏗️ Data Engineering Projects
+### Data Engineering Projects
 <table>
   <tr>
     <td width="50%">
-      <h4>🔄 Modern Data Stack Migration</h4>
+      <h4>Modern Data Stack Migration</h4>
       <img src="https://img.shields.io/badge/dbt-FF6B6B?style=flat-square&logo=dbt&logoColor=white" />
       <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" />
       <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" />
@@ -325,7 +352,7 @@ jobs:
       <p>Enterprise data warehouse modernization with 10x performance gains</p>
     </td>
     <td width="50%">
-      <h4>📈 Self-Serve Analytics Platform</h4>
+      <h4>Self-Serve Analytics Platform</h4>
       <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
       <img src="https://img.shields.io/badge/Great_Expectations-FF6B6B?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white" />
@@ -347,19 +374,19 @@ jobs:
 
 ---
 
-## 💡 Latest Blog Posts & Thoughts
+## ▸ Latest Blog Posts & Thoughts
 
 <!-- BLOG-POST-LIST:START -->
 <!-- This section can be automated with GitHub Actions -->
-- 🚀 [Building Production RAG Systems at Scale](https://your-blog.com)
-- 🧠 [Multi-Agent Orchestration with LangChain](https://your-blog.com)
-- 📊 [Real-time Analytics with DuckDB](https://your-blog.com)
-- 🔧 [MLOps Best Practices in 2025](https://your-blog.com)
+- [Building Production RAG Systems at Scale](https://your-blog.com)
+- [Multi-Agent Orchestration with LangChain](https://your-blog.com)
+- [Real-time Analytics with DuckDB](https://your-blog.com)
+- [MLOps Best Practices in 2025](https://your-blog.com)
 <!-- BLOG-POST-LIST:END -->
 
 ---
 
-## 🤝 Let's Connect & Collaborate
+## ▸ Let's Connect & Collaborate
 
 <div align="center">
   
@@ -391,7 +418,7 @@ jobs:
 
 <!-- GitHub Actions Setup Instructions -->
 <!--
-### 🔧 GitHub Actions Setup (Optional)
+### GitHub Actions Setup (Optional)
 
 To automate updates to this README:
 
