@@ -98,15 +98,6 @@ ai_ml_expertise = {
 
 ---
 
-<div align="center">
-
-### 📊 Recent Projects
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&theme=tokyonight)](https://github.com/kayaozkur/kayaozkur)
-
-</div>
-
----
 
 <div align="center">
   
