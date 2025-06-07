@@ -157,9 +157,21 @@ class DataPlatform:
 ### 🤖 AI/ML & Data Science
 ```python
 current_focus = {
-    "llm_apps": ["RAG Systems", "Agent Workflows"],
-    "ml_ops": ["Model Deployment", "A/B Testing"],
-    "research": ["Multi-Agent Systems", "Fine-tuning"],
+    "llm_engineering": {
+        "rag_systems": ["Hybrid Search", "Semantic Caching", "Multi-Index RAG"],
+        "agent_frameworks": ["AutoGPT", "LangGraph", "CrewAI"],
+        "prompt_engineering": ["Chain-of-Thought", "Few-Shot Learning", "DSPy"]
+    },
+    "ml_ops": {
+        "deployment": ["TorchServe", "Triton", "BentoML"],
+        "experimentation": ["A/B Testing", "Multi-Armed Bandits", "Bayesian Optimization"],
+        "monitoring": ["Drift Detection", "Model Performance", "Data Quality"]
+    },
+    "research": {
+        "multi_agent": ["Swarm Intelligence", "Hierarchical Agents", "Tool Use"],
+        "fine_tuning": ["LoRA", "QLoRA", "PEFT", "Instruction Tuning"],
+        "optimization": ["Quantization", "Distillation", "Pruning"]
+    },
     "data_science": {
         "predictive_modeling": ["Time Series", "Causal ML"],
         "experimentation": ["A/B Testing", "Bayesian Methods"],
@@ -180,9 +192,34 @@ WITH data_platform AS (
         'Airflow' AS orchestration,
         'Great Expectations' AS quality,
         'Monte Carlo' AS observability
+),
+pipeline_metrics AS (
+    SELECT 
+        COUNT(DISTINCT model_id) AS total_models,
+        AVG(execution_time) AS avg_runtime,
+        SUM(CASE WHEN status = 'success' THEN 1 ELSE 0 END) / COUNT(*) AS success_rate
+    FROM dbt_runs
+    WHERE run_date >= DATEADD('day', -30, CURRENT_DATE())
 )
-SELECT * FROM data_platform
-WHERE reliability = 'PRODUCTION_GRADE';
+SELECT 
+    p.*,
+    m.total_models,
+    ROUND(m.avg_runtime, 2) || ' seconds' AS avg_runtime,
+    ROUND(m.success_rate * 100, 2) || '%' AS reliability
+FROM data_platform p
+CROSS JOIN pipeline_metrics m
+WHERE m.success_rate > 0.99;
+
+-- Real-time Analytics with Window Functions
+SELECT 
+    user_id,
+    event_timestamp,
+    event_type,
+    LAG(event_timestamp) OVER (PARTITION BY user_id ORDER BY event_timestamp) AS previous_event,
+    LEAD(event_type) OVER (PARTITION BY user_id ORDER BY event_timestamp) AS next_event,
+    ROW_NUMBER() OVER (PARTITION BY user_id, DATE(event_timestamp) ORDER BY event_timestamp) AS daily_event_rank
+FROM events_stream
+QUALIFY daily_event_rank <= 100;
 ```
 
 </td>
@@ -377,7 +414,7 @@ class DataSciencePipeline:
 <div align="center">
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kayaozkur)
-  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kayaozkur)
+  [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kayaozkur)
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kaya@example.com)
   [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://kayaozkur.dev)
   
@@ -385,7 +422,6 @@ class DataSciencePipeline:
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=kayaozkur&style=for-the-badge&color=58A6FF" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/kayaozkur?style=for-the-badge&color=58A6FF" alt="Followers" />
 </div>
 
 ---
