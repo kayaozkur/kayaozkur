@@ -108,17 +108,6 @@ ai_apps = {
 
 <div align="center">
 
-### 📈 GitHub Stats
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&layout=compact&langs_count=8&theme=tokyonight"/>
-
-</div>
-
----
-
-<div align="center">
-
 
 ### 🎯 Current Focus
 
