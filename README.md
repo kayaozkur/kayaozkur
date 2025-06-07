@@ -20,7 +20,7 @@
 <!-- Interactive sections with emojis -->
 <div align="center">
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Data+Engineering+%E2%9A%A1+Analytics+%F0%9F%93%8A+AI%2FML+%F0%9F%A4%96)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Data+Engineering+%7C+Analytics+%7C+AI%2FML+%7C+Data+Science)](https://git.io/typing-svg)
   
 </div>
 
@@ -150,10 +150,6 @@ class DataPlatform:
 
 ## 🎯 What I'm Building
 
-<table>
-<tr>
-<td width="50%">
-
 ### 🤖 AI/ML & Data Science
 ```python
 current_focus = {
@@ -171,60 +167,38 @@ current_focus = {
         "multi_agent": ["Swarm Intelligence", "Hierarchical Agents", "Tool Use"],
         "fine_tuning": ["LoRA", "QLoRA", "PEFT", "Instruction Tuning"],
         "optimization": ["Quantization", "Distillation", "Pruning"]
-    },
-    "data_science": {
-        "predictive_modeling": ["Time Series", "Causal ML"],
-        "experimentation": ["A/B Testing", "Bayesian Methods"],
-        "deep_learning": ["Computer Vision", "NLP"]
     }
 }
 ```
 
-</td>
-<td width="50%">
+### 📊 Data Science Responsibilities
+```python
+data_scientist_role = {
+    "analysis": ["Statistical Modeling", "Hypothesis Testing", "Causal Inference"],
+    "modeling": ["Predictive Analytics", "Time Series Forecasting", "Segmentation"],
+    "experimentation": ["A/B Test Design", "Power Analysis", "Bayesian Methods"],
+    "insights": ["Data Storytelling", "Executive Dashboards", "KPI Development"],
+    "collaboration": ["Stakeholder Management", "Cross-functional Projects", "Mentoring"]
+}
+```
 
 ### 📈 Data & Analytics Engineering
 ```sql
--- Modern Data Stack Implementation
-WITH data_platform AS (
+-- Production Analytics Infrastructure
+WITH pipeline_health AS (
     SELECT 
-        'dbt + Snowflake' AS analytics_engine,
-        'Airflow' AS orchestration,
-        'Great Expectations' AS quality,
-        'Monte Carlo' AS observability
-),
-pipeline_metrics AS (
-    SELECT 
-        COUNT(DISTINCT model_id) AS total_models,
-        AVG(execution_time) AS avg_runtime,
-        SUM(CASE WHEN status = 'success' THEN 1 ELSE 0 END) / COUNT(*) AS success_rate
-    FROM dbt_runs
-    WHERE run_date >= DATEADD('day', -30, CURRENT_DATE())
+        workflow_name,
+        COUNT(*) AS total_runs,
+        AVG(runtime_seconds) AS avg_runtime,
+        PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY runtime_seconds) AS p95_runtime
+    FROM airflow_task_instances
+    WHERE execution_date >= CURRENT_DATE - 7
+    GROUP BY workflow_name
 )
-SELECT 
-    p.*,
-    m.total_models,
-    ROUND(m.avg_runtime, 2) || ' seconds' AS avg_runtime,
-    ROUND(m.success_rate * 100, 2) || '%' AS reliability
-FROM data_platform p
-CROSS JOIN pipeline_metrics m
-WHERE m.success_rate > 0.99;
-
--- Real-time Analytics with Window Functions
-SELECT 
-    user_id,
-    event_timestamp,
-    event_type,
-    LAG(event_timestamp) OVER (PARTITION BY user_id ORDER BY event_timestamp) AS previous_event,
-    LEAD(event_type) OVER (PARTITION BY user_id ORDER BY event_timestamp) AS next_event,
-    ROW_NUMBER() OVER (PARTITION BY user_id, DATE(event_timestamp) ORDER BY event_timestamp) AS daily_event_rank
-FROM events_stream
-QUALIFY daily_event_rank <= 100;
+SELECT * FROM pipeline_health 
+WHERE total_runs > 100 
+ORDER BY p95_runtime DESC;
 ```
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -232,62 +206,65 @@ QUALIFY daily_event_rank <= 100;
 
 <div align="center">
 
-### 📊 Analytics Engineering Excellence
+### 🚀 Data Pipeline Architecture
+
 <table>
 <tr>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/dbt_Core-FF6B6B?style=flat-square&logo=dbt&logoColor=white" alt="dbt" /><br/>
-<b>Data Transformation</b><br/>
-<sub>500+ models in production</sub>
+<td width="50%">
+
+```yaml
+modern_data_stack:
+  ingestion:
+    - Fivetran
+    - Airbyte
+    - Kafka Connect
+  storage:
+    - Snowflake
+    - BigQuery
+    - Delta Lake
+  transformation:
+    - dbt Core/Cloud
+    - Spark SQL
+    - Great Expectations
+  orchestration:
+    - Airflow
+    - Dagster
+    - Prefect
+  visualization:
+    - Tableau
+    - Looker
+    - Metabase
+  monitoring:
+    - Monte Carlo
+    - Datadog
+    - Elementary
+```
+
 </td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake" /><br/>
-<b>Cloud Data Warehouse</b><br/>
-<sub>PB-scale analytics</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/Looker-4285F4?style=flat-square&logo=looker&logoColor=white" alt="Looker" /><br/>
-<b>Business Intelligence</b><br/>
-<sub>Self-serve analytics</sub>
+<td width="50%">
+
+```python
+# Production Data Pipeline
+class DataPlatform:
+    def __init__(self):
+        self.layers = {
+            "bronze": "Raw data ingestion (Kafka, Kinesis)",
+            "silver": "Cleaned & validated (Spark, Flink)",
+            "gold": "Business-ready aggregates (dbt, Presto)"
+        }
+        
+    def build_pipeline(self):
+        return {
+            "streaming": self.kafka_to_delta_lake(),
+            "batch": self.spark_etl_jobs(),
+            "serving": self.feature_store_api(),
+            "governance": self.data_catalog()
+        }
+```
+
 </td>
 </tr>
 </table>
-
-### 🚀 Data Engineering Pipeline Architecture
-```mermaid
-graph LR
-    A[Raw Data Sources] -->|Ingestion| B[Apache Kafka]
-    B -->|Stream Processing| C[Apache Flink]
-    B -->|Batch Processing| D[Apache Spark]
-    C --> E[Data Lake]
-    D --> E
-    E -->|Transform| F[dbt]
-    F --> G[Data Warehouse]
-    G --> H[BI Tools]
-    G --> I[ML Platform]
-```
-
-### 🧪 Data Science Project Lifecycle
-```python
-# End-to-End ML Pipeline
-class DataSciencePipeline:
-    def __init__(self):
-        self.stack = {
-            "experimentation": ["Jupyter", "Databricks"],
-            "feature_store": ["Feast", "Tecton"],
-            "model_registry": ["MLflow", "W&B"],
-            "deployment": ["SageMaker", "Vertex AI"],
-            "monitoring": ["Evidently", "WhyLabs"]
-        }
-    
-    def deploy(self, model):
-        # Feature engineering with Spark
-        features = self.engineer_features()
-        # Train with distributed computing
-        model = self.train_distributed(features)
-        # Deploy with A/B testing
-        return self.deploy_with_monitoring(model)
-```
 
 </div>
 
@@ -325,15 +302,36 @@ class DataSciencePipeline:
 <br/>
 
 <!--START_SECTION:activity-->
-<!-- This section can be automated with GitHub Actions -->
-1. 🚀 Pushed to `main` in `kayaozkur/llm-orchestration`
-2. 🎯 Opened PR in `awesome-project/data-pipeline`
-3. 💬 Commented on issue in `open-source/ml-toolkit`
-4. ⭐ Starred `trending/ai-agents`
-5. 🔧 Fixed bug in `kayaozkur/analytics-engine`
+<!-- GitHub Activity - managed by github-activity-readme action -->
 <!--END_SECTION:activity-->
 
 </details>
+
+<!-- GitHub Actions Setup for Activity Feed -->
+<!--
+To enable automatic activity updates:
+
+1. Create `.github/workflows/update-activity.yml`:
+```yaml
+name: Update README Activity
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          MAX_LINES: 5
+          COMMIT_MSG: '⚡ Update README with recent activity'
+```
+-->
 
 ---
 
