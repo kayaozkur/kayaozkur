@@ -108,9 +108,6 @@ for category, items in skills.items():
 
 - 🔭 Working on advanced data analytics solutions
 - 🌱 Learning cloud-native data architectures
-- 👯 Looking to collaborate on open-source analytics projects
-- 💬 Ask me about data visualization, statistical modeling, or financial analytics
-- 📫 How to reach me: [Add your contact info here]
 
 </div>
 
