@@ -119,6 +119,7 @@ ai_apps = {
 
 <div align="center">
 
+
 ### 🎯 Current Focus
 
 - 🔭 Working on advanced data analytics solutions
@@ -127,15 +128,6 @@ ai_apps = {
 - 💬 Ask me about data visualization, statistical modeling, or financial analytics
 - 📫 How to reach me: [Add your contact info here]
 
-### 📊 Recent Projects
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=kayaozkur&theme=tokyonight)](https://github.com/kayaozkur/kayaozkur)
-
-</div>
-
----
-
-<div align="center">
   
   ### 🌟 Let's Connect!
   
