@@ -96,27 +96,6 @@
 </table>
 
 
-
-### 🏗️ Data Engineering Architecture
-```python
-# Production Data Pipeline
-class DataPlatform:
-    def __init__(self):
-        self.layers = {
-            "bronze": "Raw data ingestion (Kafka, Kinesis)",
-            "silver": "Cleaned & validated (Spark, Flink)",
-            "gold": "Business-ready aggregates (dbt, Presto)"
-        }
-        
-    def build_pipeline(self):
-        return {
-            "streaming": self.kafka_to_delta_lake(),
-            "batch": self.spark_etl_jobs(),
-            "serving": self.feature_store_api(),
-            "governance": self.data_catalog()
-        }
-```
-
 </div>
 
 ---
