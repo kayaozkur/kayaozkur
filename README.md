@@ -112,8 +112,6 @@ ai_stack = {
                          "Knowledge Distillation"]
     },
     "AI_Infrastructure": {
-        "compute": ["CUDA", "Ray", 
-                    "Horovod", "DeepSpeed"],
         "monitoring": ["Evidently AI", "Neptune.ai", 
                        "Comet ML"],
         "pipelines": ["Apache Beam", "Prefect", 
