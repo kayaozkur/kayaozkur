@@ -29,7 +29,7 @@
 ## 🚀 Tech Arsenal
 
 <!-- Animated tech stack showcase -->
-<div align="center">
+<div align="left">
   
 ### 🧠 AI/ML & LLM Engineering
 <div>
