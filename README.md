@@ -1,5 +1,3 @@
-# Welcome to My GitHub Profile! 👋
-
 <div align="center">
   
   ## 🚀 Tech Stack & Tools
