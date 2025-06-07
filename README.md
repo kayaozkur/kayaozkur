@@ -85,17 +85,7 @@ ai_ml_expertise = {
 ```
 </details>
 
----
 
-<div align="center">
-
-### 🎯 Current Focus
-
-- 🔭 Working on advanced data analytics solutions
-- 🌱 Learning cloud-native data architectures
-
-
-<div align="center">
   
   ### 🌟 Let's Connect!
   
