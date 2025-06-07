@@ -62,12 +62,12 @@ career_path <- tibble(
     "BI Solutions Architect 📊"
   ),
   achievement = c(
-    "Built scalable analytics infrastructure serving 10M+ queries/day",
-    "Deployed ML models reducing forecast error by 35%",
-    "Optimized database performance achieving 200% query speed improvement",
-    "Designed ETL pipelines processing 5TB+ daily data flows",
-    "Developed REST APIs handling 50K+ requests/second",
-    "Created enterprise dashboards driving $2M+ revenue insights"
+    "Built scalable analytics infrastructure",
+    "Deployed ML models for business impact",
+    "Optimized database performance",
+    "Designed real-time data pipelines",
+    "Developed high-performance APIs",
+    "Created data-driven dashboards"
   ),
   technologies = list(
     c("dbt", "Airflow", "Spark", "Snowflake"),
