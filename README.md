@@ -65,32 +65,124 @@
 
 ---
 
+## 🔬 Data Science & ML Expertise
+
+<div align="center">
+
+### 🎯 Specializations
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img width="60" height="60" src="https://img.icons8.com/fluency/96/artificial-intelligence.png" alt="ML"/><br/>
+      <b>Machine Learning</b><br/>
+      <sub>Predictive Modeling<br/>Feature Engineering<br/>Model Optimization</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="60" height="60" src="https://img.icons8.com/fluency/96/combo-chart.png" alt="Analytics"/><br/>
+      <b>Statistical Analysis</b><br/>
+      <sub>A/B Testing<br/>Causal Inference<br/>Time Series</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="60" height="60" src="https://img.icons8.com/fluency/96/brain.png" alt="Deep Learning"/><br/>
+      <b>Deep Learning</b><br/>
+      <sub>Neural Networks<br/>Computer Vision<br/>NLP & LLMs</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="60" height="60" src="https://img.icons8.com/fluency/96/dashboard.png" alt="BI"/><br/>
+      <b>Business Intelligence</b><br/>
+      <sub>KPI Development<br/>Dashboard Design<br/>Data Storytelling</sub>
+    </td>
+  </tr>
+</table>
+
+### 📈 Analytics Engineering Stack
+```yaml
+modern_data_stack:
+  ingestion:
+    - Fivetran
+    - Airbyte
+    - Stitch
+  storage:
+    - Snowflake
+    - BigQuery
+    - Databricks
+  transformation:
+    - dbt Core/Cloud
+    - Dataform
+    - Great Expectations
+  orchestration:
+    - Airflow
+    - Dagster
+    - Prefect
+  visualization:
+    - Tableau
+    - Looker
+    - Power BI
+  monitoring:
+    - Monte Carlo
+    - Datadog
+    - Elementary
+```
+
+### 🏗️ Data Engineering Architecture
+```python
+# Production Data Pipeline
+class DataPlatform:
+    def __init__(self):
+        self.layers = {
+            "bronze": "Raw data ingestion (Kafka, Kinesis)",
+            "silver": "Cleaned & validated (Spark, Flink)",
+            "gold": "Business-ready aggregates (dbt, Presto)"
+        }
+        
+    def build_pipeline(self):
+        return {
+            "streaming": self.kafka_to_delta_lake(),
+            "batch": self.spark_etl_jobs(),
+            "serving": self.feature_store_api(),
+            "governance": self.data_catalog()
+        }
+```
+
+</div>
+
+---
+
 ## 🎯 What I'm Building
 
 <table>
 <tr>
 <td width="50%">
 
-### 🤖 AI/ML Projects
+### 🤖 AI/ML & Data Science
 ```python
 current_focus = {
     "llm_apps": ["RAG Systems", "Agent Workflows"],
     "ml_ops": ["Model Deployment", "A/B Testing"],
-    "research": ["Multi-Agent Systems", "Fine-tuning"]
+    "research": ["Multi-Agent Systems", "Fine-tuning"],
+    "data_science": {
+        "predictive_modeling": ["Time Series", "Causal ML"],
+        "experimentation": ["A/B Testing", "Bayesian Methods"],
+        "deep_learning": ["Computer Vision", "NLP"]
+    }
 }
 ```
 
 </td>
 <td width="50%">
 
-### 📈 Data Engineering
+### 📈 Data & Analytics Engineering
 ```sql
-SELECT 
-    'Real-time Pipelines' AS focus,
-    'Event-Driven Architecture' AS architecture,
-    'Data Mesh' AS philosophy
-FROM innovations
-WHERE impact = 'HIGH';
+-- Modern Data Stack Implementation
+WITH data_platform AS (
+    SELECT 
+        'dbt + Snowflake' AS analytics_engine,
+        'Airflow' AS orchestration,
+        'Great Expectations' AS quality,
+        'Monte Carlo' AS observability
+)
+SELECT * FROM data_platform
+WHERE reliability = 'PRODUCTION_GRADE';
 ```
 
 </td>
@@ -99,15 +191,86 @@ WHERE impact = 'HIGH';
 
 ---
 
+## 🔬 Data Science & Engineering Showcase
+
+<div align="center">
+
+### 📊 Analytics Engineering Excellence
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/dbt_Core-FF6B6B?style=flat-square&logo=dbt&logoColor=white" alt="dbt" /><br/>
+<b>Data Transformation</b><br/>
+<sub>500+ models in production</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake" /><br/>
+<b>Cloud Data Warehouse</b><br/>
+<sub>PB-scale analytics</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Looker-4285F4?style=flat-square&logo=looker&logoColor=white" alt="Looker" /><br/>
+<b>Business Intelligence</b><br/>
+<sub>Self-serve analytics</sub>
+</td>
+</tr>
+</table>
+
+### 🚀 Data Engineering Pipeline Architecture
+```mermaid
+graph LR
+    A[Raw Data Sources] -->|Ingestion| B[Apache Kafka]
+    B -->|Stream Processing| C[Apache Flink]
+    B -->|Batch Processing| D[Apache Spark]
+    C --> E[Data Lake]
+    D --> E
+    E -->|Transform| F[dbt]
+    F --> G[Data Warehouse]
+    G --> H[BI Tools]
+    G --> I[ML Platform]
+```
+
+### 🧪 Data Science Project Lifecycle
+```python
+# End-to-End ML Pipeline
+class DataSciencePipeline:
+    def __init__(self):
+        self.stack = {
+            "experimentation": ["Jupyter", "Databricks"],
+            "feature_store": ["Feast", "Tecton"],
+            "model_registry": ["MLflow", "W&B"],
+            "deployment": ["SageMaker", "Vertex AI"],
+            "monitoring": ["Evidently", "WhyLabs"]
+        }
+    
+    def deploy(self, model):
+        # Feature engineering with Spark
+        features = self.engineer_features()
+        # Train with distributed computing
+        model = self.train_distributed(features)
+        # Deploy with A/B testing
+        return self.deploy_with_monitoring(model)
+```
+
+</div>
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kayaozkur&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" width="98%" alt="Activity Graph" />
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true" alt="GitHub Stats" />
+        <br/>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8" alt="Top Languages" />
+      </td>
+      <td>
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kayaozkur&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" alt="Activity Graph" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -140,7 +303,51 @@ WHERE impact = 'HIGH';
 ## 🌟 Featured Projects
 
 <div align="center">
-  
+
+### 🚀 Data Science & ML Projects
+<table>
+  <tr>
+    <td width="50%">
+      <h4>🤖 LLM-Powered Analytics Platform</h4>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+      <br/><br/>
+      <p>Natural language to SQL queries with RAG-enhanced context understanding</p>
+    </td>
+    <td width="50%">
+      <h4>📊 Real-time Anomaly Detection</h4>
+      <img src="https://img.shields.io/badge/Apache_Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+      <br/><br/>
+      <p>ML-powered streaming analytics for fraud detection at scale</p>
+    </td>
+  </tr>
+</table>
+
+### 🏗️ Data Engineering Projects
+<table>
+  <tr>
+    <td width="50%">
+      <h4>🔄 Modern Data Stack Migration</h4>
+      <img src="https://img.shields.io/badge/dbt-FF6B6B?style=flat-square&logo=dbt&logoColor=white" />
+      <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" />
+      <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" />
+      <br/><br/>
+      <p>Enterprise data warehouse modernization with 10x performance gains</p>
+    </td>
+    <td width="50%">
+      <h4>📈 Self-Serve Analytics Platform</h4>
+      <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
+      <img src="https://img.shields.io/badge/Great_Expectations-FF6B6B?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white" />
+      <br/><br/>
+      <p>Democratizing data access with automated quality checks & governance</p>
+    </td>
+  </tr>
+</table>
+
 <!-- Project cards with live stats -->
 <a href="https://github.com/kayaozkur/your-project-1">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=your-project-1&theme=tokyonight&hide_border=true&bg_color=0D1117" />
