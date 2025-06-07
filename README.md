@@ -20,7 +20,7 @@
 <!-- Interactive sections with emojis -->
 <div align="center">
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Data+Engineering+%7C+Analytics+%7C+AI%2FML+%7C+Data+Science)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Data+Engineering+%7C+Analytics+%7C+AI%2FML+%7C+Data+Science)](https://git.io/typing-svg)
   
 </div>
 
@@ -135,135 +135,70 @@ data_scientist_role = {
 
 ### Data & Analytics Engineering
 ```sql
--- Building scalable analytics infrastructure for data-driven decisions
-WITH user_engagement_metrics AS (
-    -- Compute user engagement patterns with sophisticated window functions
+-- Query: Who is Kaya? Let's analyze the data...
+WITH kaya_profile AS (
     SELECT 
-        user_id,
-        DATE_TRUNC('week', event_timestamp) AS week,
-        COUNT(DISTINCT session_id) AS sessions,
-        COUNT(DISTINCT DATE(event_timestamp)) AS active_days,
-        SUM(event_value) AS total_engagement_score,
-        -- Calculate week-over-week growth
-        LAG(COUNT(*), 1) OVER (PARTITION BY user_id ORDER BY DATE_TRUNC('week', event_timestamp)) AS prev_week_events,
-        -- Identify power users
-        NTILE(10) OVER (ORDER BY COUNT(*) DESC) AS engagement_decile
-    FROM events
-    WHERE event_timestamp >= DATEADD('month', -3, CURRENT_DATE())
-    GROUP BY 1, 2
+        'Kaya Ozkur' AS full_name,
+        'Senior Data Engineer' AS current_role,
+        ARRAY['Python', 'SQL', 'R', 'JavaScript'] AS languages,
+        ARRAY['LangChain', 'dbt', 'Spark', 'Airflow'] AS favorite_tools,
+        5 AS years_experience,
+        'Building data pipelines by day, training LLMs by night' AS motto
 ),
-cohort_analysis AS (
-    -- Advanced cohort retention analysis
+expertise_stack AS (
     SELECT 
-        cohort_month,
-        months_since_signup,
-        COUNT(DISTINCT user_id) AS cohort_users,
-        SUM(revenue) AS cohort_revenue,
-        COUNT(DISTINCT user_id) / FIRST_VALUE(COUNT(DISTINCT user_id)) 
-            OVER (PARTITION BY cohort_month ORDER BY months_since_signup) AS retention_rate
-    FROM user_cohorts
-    GROUP BY 1, 2
+        skill_category,
+        COUNT(*) AS skill_count,
+        STRING_AGG(skill_name, ', ') AS skills,
+        AVG(proficiency_score) AS avg_proficiency
+    FROM (
+        VALUES 
+            ('Data Engineering', 'Apache Spark', 95),
+            ('Data Engineering', 'Airflow Orchestration', 90),
+            ('Data Engineering', 'Real-time Streaming', 85),
+            ('Analytics Engineering', 'dbt Modeling', 92),
+            ('Analytics Engineering', 'Data Warehousing', 88),
+            ('Machine Learning', 'LLM Development', 87),
+            ('Machine Learning', 'MLOps', 83),
+            ('Machine Learning', 'Deep Learning', 85)
+    ) AS skills(skill_category, skill_name, proficiency_score)
+    GROUP BY skill_category
+),
+project_impact AS (
+    SELECT 
+        'Reduced data pipeline latency by 70%' AS achievement_1,
+        'Built RAG system serving 10k+ queries/day' AS achievement_2,
+        'Migrated 500+ dbt models to Snowflake' AS achievement_3,
+        'Deployed ML models with <50ms inference' AS achievement_4
 )
--- Final business metrics with statistical significance
+-- The final query that defines me
 SELECT 
-    m.*,
-    c.retention_rate,
-    -- Calculate statistical significance for experiments
+    k.full_name,
+    k.current_role,
+    e.skill_category,
+    e.skills,
     CASE 
-        WHEN m.sessions > 30 AND c.retention_rate > 0.4 
-        THEN 'High Value Segment'
-        ELSE 'Standard Segment'
-    END AS user_segment
-FROM user_engagement_metrics m
-JOIN cohort_analysis c ON m.week = c.cohort_month
-WHERE m.engagement_decile <= 3  -- Focus on top 30% users
+        WHEN e.avg_proficiency >= 90 THEN '⭐⭐⭐⭐⭐'
+        WHEN e.avg_proficiency >= 85 THEN '⭐⭐⭐⭐'
+        ELSE '⭐⭐⭐'
+    END AS expertise_level,
+    p.*
+FROM kaya_profile k
+CROSS JOIN expertise_stack e
+CROSS JOIN project_impact p
+WHERE k.years_experience >= 5
+    AND e.avg_proficiency > 80
+ORDER BY e.avg_proficiency DESC;
+
+-- Result: A data professional who transforms chaos into insights ✨
 ```
-
----
-
-## ▸ Data Science & Engineering Showcase
-
-<div align="center">
-
-### Data Pipeline Architecture
-
-<table>
-<tr>
-<td width="50%">
-
-```yaml
-modern_data_stack:
-  ingestion:
-    - Fivetran
-    - Airbyte
-    - Kafka Connect
-  storage:
-    - Snowflake
-    - BigQuery
-    - Delta Lake
-  transformation:
-    - dbt Core/Cloud
-    - Spark SQL
-    - Great Expectations
-  orchestration:
-    - Airflow
-    - Dagster
-    - Prefect
-  visualization:
-    - Tableau
-    - Looker
-    - Metabase
-  monitoring:
-    - Monte Carlo
-    - Datadog
-    - Elementary
-```
-
-</td>
-<td width="50%">
-
-```python
-# Production Data Pipeline
-class DataPlatform:
-    def __init__(self):
-        self.layers = {
-            "bronze": "Raw data ingestion (Kafka, Kinesis)",
-            "silver": "Cleaned & validated (Spark, Flink)",
-            "gold": "Business-ready aggregates (dbt, Presto)"
-        }
-        
-    def build_pipeline(self):
-        return {
-            "streaming": self.kafka_to_delta_lake(),
-            "batch": self.spark_etl_jobs(),
-            "serving": self.feature_store_api(),
-            "governance": self.data_catalog()
-        }
-```
-
-</td>
-</tr>
-</table>
-
-</div>
 
 ---
 
 ## ▸ GitHub Analytics
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=kayaozkur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true" alt="GitHub Stats" />
-        <br/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kayaozkur&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8" alt="Top Languages" />
-      </td>
-      <td>
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kayaozkur&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" alt="Activity Graph" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kayaozkur&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" alt="Activity Graph" />
 </div>
 
 ---
