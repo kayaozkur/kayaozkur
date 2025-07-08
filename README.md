@@ -298,15 +298,6 @@ jobs:
     </td>
   </tr>
 </table>
-
-<!-- Project cards with live stats -->
-<a href="https://github.com/kayaozkur/your-project-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=your-project-1&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-<a href="https://github.com/kayaozkur/your-project-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kayaozkur&repo=your-project-2&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-
 </div>
 
 ---
